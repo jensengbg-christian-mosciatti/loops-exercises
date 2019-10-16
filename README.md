@@ -10,4 +10,4 @@ I mappen **mockup** ligger en screenshot på hur den kan se ut.
 
 ## Övning 2
 
-Använd funktionen filterBooks från övning 2 (https://repl.it/@ChrisZocom/Arrays-och-objekt) och visa en lista med böcker där du kan söka på författare via ett inputfält.
+Använd funktionen filterBooks från övning 2 (https://repl.it/@ChrisZocom/Objekt) och visa en lista med böcker där du kan söka på författare via ett inputfält.
