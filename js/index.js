@@ -39,7 +39,7 @@ setItemHTML = () => {
       <p class="item-content">
       ${inputText}
       </p>
-      <button class="item-delete" onclick="deleteElement(event)"></button>
+      <button class="item-delete" onclick="deleteItem(event)"></button>
       `;
 };
 
@@ -66,7 +66,7 @@ changeState = event => {
   }
 };
 
-deleteElement = event => {
+deleteItem = event => {
   // console.log(event);
   const IdDel = toDoList.findIndex(el => el.id == event.path[1].firstChild.id);
   if (IdDel > -1) {
